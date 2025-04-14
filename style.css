@@ -114,6 +114,28 @@ form input[type="submit"]:hover{
 }
 .section--footer {
     background: rgba(35, 150, 198);
-    height: 200px;
+    height: 179px;
     margin-top: 356px;
+}
+.footer__redes {
+    display: grid;
+    height: 180px;
+}
+.footer__redes li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 400px;
+    width: 250px;
+    height: 70px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.footer__redes li a {
+    color:#FFF;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
