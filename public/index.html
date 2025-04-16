@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <section class="header-container">
+        <img class="header-container__logo" src="./logo/logo.png" alt="">
+        <h1 class="header-container__title">The weather anywhere in the world</h1>
+        <P class="header-container__parrafo">
+            Here you can find the real-time weather forecast for anywhere in the world, 
+            whether you're currently in the world or planning to go.
+            You'll see the high and low temperatures, whether it's cloudy or sunny, 
+            and whether it's raining or not, so you can plan your travels.
+        </P>
+
+    </section>
+    <section class="weather-content">
+        <h1>Weather finder</h1>
+        <div class="result">
+          <p>Add city and country</p>
+          <!-- <h5>Clima en Oslo</h5>
+          <img src="" alt="">
+          <h2>28 °C</h2>
+          <p>Max: 29 °C</p>
+          <p>Min: 27 °C</p> -->
+        </div>
+        <form action="" method="POST" class="get-weather">
+            <input type="text" name="city" id="city" placeholder="Write your city....">
+            <select name="" id="country">
+                <option disabled selected value=""></option>
+                <option value="NO">Noruega</option>
+                <option value="ES">España</option>
+                <option value="LON">Londres</option>
+                <option value="DK">Dinamarca</option>
+                <option value="SK">Suecia</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">Mexico</option>
+                <option value="COL">Colombia</option>
+            </select>
+            <input type="submit" name="" id="" value="Get Weather">
+
+        </form>
+
+    </section>
+    <section class="section--footer">
+        <div class="footer__redes"> 
+            <ul>
+                <!-- <li>
+                    <a target="_blank" href="https://openweathermap.org/">
+                    <img src="../src/assets/api.png" alt="API">
+                    Conoce el API
+                  </a> 
+                </li> -->
+                <li>
+                  <a target="_blank" href="">
+                  <img class="logo" src="./vector/contact.png" alt="Contáctame">
+                  Contact me
+                  </a>
+                </li>
+        
+                <li>
+                  <a target="_blank" href="https://github.com/lehder/Climora">
+                    <img class="logo" src="./vector/github.png" alt="Repositorio">
+                    See the code
+                  </a>
+                </li>
+              </ul>
+        </div>
+        
+
+    </section>
+</main>
+
+  <script src="custom.js"></script>
+</body>
+</html>

@@ -34,6 +34,7 @@ body{
     margin-left: -150px;
 }
 .header-container__parrafo {
+    font-family: Arial, Helvetica, sans-serif;
     height: 150px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -138,4 +139,61 @@ form input[type="submit"]:hover{
     color:#FFF;
     text-decoration: none;
     font-size: 1.2rem;
+}
+@media (max-width: 480px) {
+    body {
+        width: 669px;
+    }
+    .header-container {
+        width: 669px;
+        height: 550px;
+        padding: 0;
+        display: inline-block;
+    } 
+    .header-container__logo {
+        margin-left: 240px;
+        margin-top: 30px;
+    }
+    .header-container__title {
+        margin-left: 130px;
+        font-size: xxx-large;
+        margin-top: 110px;
+    }
+    .header-container__parrafo {
+        width: 600px;
+        height: 300px;
+        color: rgb(35, 35, 35);
+        font-size: 1.8rem;
+        margin-top: 150px;
+        padding: 20px 20px 20px 20px;
+    }
+    .weather-content {
+        margin-top: 228px;
+    }
+    .weather-content h1 {
+        font-size: xxx-large;
+    }
+    .result p {
+        font-size: xx-large;
+    }
+    .get-weather {
+        margin-top: 150px;
+    }
+    form input[type="text"], form input[type="submit"], form select {
+        font-size: 1.5rem;
+    }
+    .footer__redes {
+        width: 669px;
+    }
+    .footer__redes li {
+        margin-left: 0;
+    }
+    .logo {
+        height: 70px;
+        width: 70px;
+    }
+    .footer__redes li a {
+        font-size: 1.5rem;
+    }
+    
 }
